@@ -43,6 +43,8 @@ defmodule Gchat.MixProject do
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
+      {:comeonin, "~> 5.3"},
+      {:bcrypt_elixir, "~> 2.3"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"}
     ]
