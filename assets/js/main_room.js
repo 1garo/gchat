@@ -11,6 +11,8 @@ let MainRoom = {
     
           let userName = document.getElementById('user-name').value
           let userMsg = document.getElementById('user-msg').value
+
+          // if (userName == '') userName = "user"
     
           channel.push('shout', {name: userName, body: userMsg})
     
