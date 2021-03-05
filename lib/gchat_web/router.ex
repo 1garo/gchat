@@ -17,6 +17,7 @@ defmodule GchatWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    resources "/registrations", UserController, only: [:new, :create]
   end
 
   # Other scopes may use custom stacks.
